@@ -1,0 +1,13 @@
+* {
+    font-family: "Unica77", "Helvetica Neue", Arial, sans-serif;
+    max-width: 1280px;
+  }
+
+ul {
+  font-size: 30px;
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
