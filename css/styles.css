@@ -1,13 +1,99 @@
-* {
-    font-family: "Unica77", "Helvetica Neue", Arial, sans-serif;
-    max-width: 1280px;
-  }
-
-ul {
-  font-size: 30px;
-  list-style: none;
+body {
+  overflow: hidden;
 }
 
-a {
-  text-decoration:none;
+.page {
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.square1_bw {
+  display: flex;
+  background: white;
+  border: 1px;
+  border-style: solid;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin: auto;
+}
+
+.square2_bw {
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  background: white;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.square3_bw {
+  display: flex;
+  background: black;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  margin: auto;
+}
+
+.square1_wb {
+  display: flex;
+  background: white;
+  border: 1px;
+  border-style: solid;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin: auto;
+}
+
+.square2_wb {
+  display: flex;
+  background: black;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.square3_wb {
+  display: flex;
+  background: white;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  margin: auto;
+} 
+
+.square2_line {
+  display: flex;
+  background: white;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.line {
+  display: flex;
+  background: black;
+  width: 2vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.lineleft {
+  display: flex;
+  background: black;
+  width: 2vw;
+  height: 42.857143vh;
+  margin: auto;
+  margin-left: 0;
+}
+
+.lineright {
+  display: flex;
+  background: black;
+  width: 2vw;
+  height: 42.857143vh;
+  margin: auto;
+  margin-right: 0;
 }

@@ -19,16 +19,34 @@ body {
 
 .square2 {
     display: flex;
-    background: black;
+    background: red;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
 }
 
-.square3 {
+.line {
     display: flex;
-    background: white;
-    width: 14.285714vw;
-    height: 14.285714vh;
+    background: black;
+    width: 2vw;
+    height: 42.857143vh;
     margin: auto;
+}
+
+.lineleft {
+    display: flex;
+    background: black;
+    width: 2vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-left: 0;
+}
+
+.lineright {
+    display: flex;
+    background: black;
+    width: 2vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-right: 0;
 }

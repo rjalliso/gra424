@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    overflow: hidden;
 }
 
 .page {
@@ -9,7 +10,7 @@ body {
     height: 100vh;
 }
 
-.square1 {
+.square1_bw {
     display: flex;
     background: white;
     width: 71.428571vw;
@@ -17,8 +18,9 @@ body {
     margin: auto;
 }
 
-.square2 {
+.square2_bw {
     display: flex;
+    border: .25px;
     border-style: solid;
     border-color: lightgray;
     background: white;
@@ -27,7 +29,7 @@ body {
     margin: auto;
 }
 
-.square3 {
+.square3_bw {
     display: flex;
     background: black;
     width: 14.285714vw;
