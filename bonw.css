@@ -1,0 +1,32 @@
+.page {
+    display: flex;
+    background: lightgray;
+    width: 100vw;
+    height: 100vw;
+    margin: auto;
+}
+
+.square1 {
+    display: flex;
+    background: white;
+    width: 71.428571vw;
+    height: 71.428571vw;
+    margin: auto;
+}
+
+.square2 {
+    display: flex;
+    border-style: solid;
+    background: white;
+    width: 42.857143vw;
+    height: 42.857143vw;
+    margin: auto;
+}
+
+.square3 {
+    display: flex;
+    background: black;
+    width: 14.285714vw;
+    height: 14.285714vw;
+    margin: auto;
+}
