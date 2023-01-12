@@ -1,25 +1,29 @@
+body {
+    background-color: lightgray;
+}
+
 .page {
     display: flex;
     background: lightgray;
     width: 100vw;
-    height: 100vw;
-    margin: auto;
+    height: 100vh;
 }
 
 .square1 {
     display: flex;
     background: white;
     width: 71.428571vw;
-    height: 71.428571vw;
+    height: 71.428571vh;
     margin: auto;
 }
 
 .square2 {
     display: flex;
     border-style: solid;
+    border: 1px;
     background: white;
     width: 42.857143vw;
-    height: 42.857143vw;
+    height: 42.857143vh;
     margin: auto;
 }
 
@@ -27,6 +31,6 @@
     display: flex;
     background: black;
     width: 14.285714vw;
-    height: 14.285714vw;
+    height: 14.285714vh;
     margin: auto;
 }
