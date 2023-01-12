@@ -19,8 +19,8 @@ body {
 
 .square2 {
     display: flex;
-    border-style: solid lightgray;
-    border: 3px;
+    border-style: solid;
+    border-color: lightgray;
     background: white;
     width: 42.857143vw;
     height: 42.857143vh;
