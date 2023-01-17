@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   overflow: hidden;
 }
@@ -79,7 +83,7 @@ body {
 .line {
   display: flex;
   background: black;
-  width: 2vw;
+  width: 1.948164vw;
   height: 42.857143vh;
   margin: auto;
 }
@@ -87,7 +91,7 @@ body {
 .lineleft {
   display: flex;
   background: black;
-  width: 2vw;
+  width: 1.948164vw;
   height: 42.857143vh;
   margin: auto;
   margin-left: 0;
@@ -96,7 +100,7 @@ body {
 .lineright {
   display: flex;
   background: black;
-  width: 2vw;
+  width: 1.948164vw;
   height: 42.857143vh;
   margin: auto;
   margin-right: 0;
@@ -109,4 +113,12 @@ body {
   justify-content: center;
   width: 80vw;
   height: 80vh;
+}
+
+.square3 {
+  display: flex;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  margin: auto;
+  position: absolute;
 }
