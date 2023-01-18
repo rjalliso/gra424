@@ -116,12 +116,20 @@ body {
 }
 
 .square3 {
+  display: flex;
   margin: auto;
   width: 14.285714vw;
   height: 14.285714vh;
   margin-left: 14.285714vw;
   margin-top: 14.285714vh;
   position: absolute;
+}
+
+svg{
+  display: flex;
+  margin: auto;
+  width: 14.285714vw;
+  height: 14.285714vh;
 }
 
 .step2 {
